@@ -4,5 +4,5 @@ LABEL version="0.1.0"
 LABEL maintainer="b.taurosevicius@gmail.com"
 
 
-RUN apk add --update openvpn bash git tzdata openssh && \
+RUN apk add --update openvpn bash git tzdata openssh zip && \
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
